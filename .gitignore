@@ -1,0 +1,21 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE & OS temporary files
+.vscode/
+.idea/
+~$*
+.DS_Store
+Thumbs.db
+
+# Local run outputs
+output/
+submit/
